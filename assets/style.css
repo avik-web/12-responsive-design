@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: front;
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body {
+    max-width: 1440px;
+    /* border: 2px solid rgb(17, 13, 245); */
+    height: 100%;
+    padding: 3%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+:root{
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayishblue: hsl(233, 8%, 79%);
+    --Darkgrayishblue: hsl(236, 13%, 42%);
+    --Verydarkblue: hsl(240, 100%, 5%);
+    --Softorange: hsl(35, 77%, 62%);
+    --Softred: hsl(5, 85%, 63%);
+}
+/* ....................................................... utility */
+.inline{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    /* border: 2px solid red; */
+}
+
+/* ..............................................navbar ::selection */
+header {
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+header ul{
+ list-style: none;
+ gap: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+.nav-bar a{
+    color: black;
+}
+/* .................................................mainconatainer */
+.container1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    
+}
+.container2{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:15px;
+    /* gap:13%; */
+}
+/* .................................................subconatainer */
+.subcontainer1{
+    height:100%;
+    width: 70%;
+    /* border: 1px solid rgb(255, 16, 16); */
+    display: flex;
+    /* gap: 50px; */
+    /* justify-content: space-between; */
+    
+    
+}
+.subcontainer2{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid rgb(26, 11, 233); */
+    background-color: black;
+    padding-right: 12px;
+}
+/* .................................................supersubconatainer */
+.supersubcontainer1{
+    /* border: 1px solid rgb(11, 233, 41); */
+    height: 50%;
+    width: 100%;
+   
+}
+.supersubcontainer2{
+    /* border: 1px solid rgb(233, 11, 11); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+/* .................................................element1 */
+.element1{
+height: 100%;
+width: 50%;
+/* border: 2px solid rgb(11, 52, 233); */
+}
+.element2{
+    height:100%;
+    width: 50%;
+    /* border: 2px solid rgb(11, 52, 233); */
+}
+/* .................................................box */
+.box1{
+    /* border: 2px solid rgb(223, 209, 21); */
+    width:30%;
+    height: 100%;
+    display: flex;
+}
+.box2{
+    /* border: 2px solid rgb(58, 21, 223); */
+    width:30%;
+    height: 100%;
+    display: flex;
+}
+.box3{
+    /* border: 2px solid rgb(21, 223, 98); */
+    width:30%;
+    height: 100%;
+    display: flex;
+}
+/* ............................................img..... */
+.pictu{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+/* ............................................text style..... */
+.bright{
+    font-size: 70px;
+    line-height: 65px;
+    font-weight: 800;
+    padding: 4%;
+}
+.para14{
+    font-size:20px;
+    padding: 4%;
+}
+.c121{
+    font-size: 70px;
+    color: hsl(35, 77%, 62%);
+    /* border: 2px solid red; */
+    margin-left: 17px;
+}
+.container1211{
+    margin-left: 17px;
+}
+.container1212{
+    margin-left: 17px;
+}
+.container1213{
+    margin-left: 17px;
+}
+.para{
+    font-size:15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: hsl(236, 13%, 42%);
+}
+.text{
+    font-size:24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+
+
+/* ............................................button style..... */
+.read{
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 4%;
+    padding: 4%;
+    margin-top: 5%;
+}
+/* ............................................button style..... */
+.subbox1{
+ /* border: 2px solid red; */
+ height: 100%;
+ width: 50%;
+}
+.subbox2{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+}
+/* ............................................image style..... */
+.img15{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.number{
+    font-size:50px;
+    font-weight: 700px;
+    color: hsl(5, 85%, 63%);
+    padding: 5px;
+}
+.headbox{
+    font-size:20px;
+    font-weight: 700px;
+    padding-left: 5px;
+}
+.para9{
+    font-size:18px;
+    font-weight: 400px;
+    padding-top: 12px;
+    color: hsl(236, 13%, 42%);
+    padding-left: 5px;
+}
+/* ............................................subconatainer 2..... */
+.para{
+    font-size:15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: hsl(236, 13%, 42%);
+    width: 99%;
+}
+.text{
+    font-size:24px;
+    font-weight: 400;
+}
+hr{
+    width: 89%;
+    /* display: flex; */
+    margin-left: 20px;
+}
+.text6{
+  padding-top: 5px;
+  color: white;
+  padding-top: 9%;
+  padding-bottom:5px;
+
+}
+.para6{
+    color: hsl(236, 13%, 42%);
+    padding-top: 4%;
+    padding-bottom:5px;
+}
+
+
+
+
+@media only screen and (min-width:375px) and (max-width:600px) {
+    .body{
+    height: 100%;
+    margin: 0 auto;
+    /* padding:3%; */
+    display: flex;
+    flex-direction:column;
+    max-width: 375px;
+    gap:20px;
+    }
+    /* .inline{
+        display: flex;
+        /* padding: 12px; */
+        /* border: 2px solid red; */
+   
+    header {
+        padding: 1px 0;
+        justify-content:left;
+
+    }
+     .bg-img
+    {
+     height:300px; 
+     width:100% ;
+     border: 1px solid red;
+     background-image: url("./images/image-web-3-mobile.jpg");
+     background-size:cover;
+     
+
+    }
+    .bg-img .pictu{
+        visibility:hidden;
+    }
+
+    nav{
+      /* border: 1px solid red; */
+      display: flex;
+      /* display: none; */
+    }
+    .container1{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        /* align-items: center; */
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        /* gap: 40px; */
+    }
+    .container2{
+        height:fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 1px solid red; */
+        padding: 1%;
+    }
+    .subcontainer1{
+        display: flex;
+        flex-direction:column;
+     
+        height: fit-content;
+        width: 100%;
+        /* border: 1px solid red; */
+        /* gap: 400px; */
+        
+    }
+    .subcontainer2{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        height: fit-content;
+        /* border: 1px solid red; */
+        padding-bottom: 5px;
+    }
+    .supersubcontainer1
+    {
+        display: flex;
+        flex-direction:column;
+        /* align-items: center; */
+        /* border: 1px solid red; */
+        gap: 30px;
+        justify-content: space-between;
+        height: 100%;
+        
+    }
+    .supersubcontainer2{
+        display: flex;
+        flex-direction:column;
+        /* height:100%; */
+        /* width: 100%; */
+        /* border: 1px solid red; */
+        gap: 0;
+    }
+    .bright{
+        /* width: 100%; */
+        font-size: 50px;
+        font-weight:800;
+        /* border: 1px solid red; */
+    }
+    .element1{
+        height: 40%;
+        width: 100%;
+        /* border: 2px solid rgb(11, 52, 233); */
+        }
+        .element2{
+            height:60%;
+            width: 100%;
+            /* border: 2px solid rgb(11, 52, 233); */
+        }
+        .read{
+            margin-bottom: 9px;
+            background-color:red;
+            letter-spacing: 9px;
+        }
+        .box1{
+           width: 100%;
+           gap: 5px;
+           padding-bottom: 15px;
+           height: 190px;
+        }
+        .box2{
+            width: 100%;
+            gap: 5px;
+            height: 190px;
+            padding-bottom: 15px;
+        }
+        .box3{
+            width: 100%;
+            gap: 5px;
+            height: 190px;
+            padding-bottom: 15px;
+        }
+  }
+  
