@@ -14,7 +14,7 @@ body {
     padding: 3%;
     margin: 0 auto;
     display: flex;
-    gap: 50px;
+    gap: 20px;
     flex-direction: column;
 }
 :root{
@@ -52,11 +52,11 @@ header ul li a{
 }
 /* .................................................mainconatainer */
 .container1{
-    height: 500px;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap:8px;
+    gap:20px;
     
 }
 .container2{
@@ -66,7 +66,7 @@ header ul li a{
     flex-direction: row;
     justify-content: space-around;
     padding:15px;
-    /* gap:13%; */
+    gap:10px;
 }
 /* .................................................subconatainer */
 .subcontainer1{
@@ -74,23 +74,26 @@ header ul li a{
     width: 70%;
     /* border: 1px solid rgb(255, 16, 16); */
     display: flex;
-    /* gap: 50px; */
+    gap: 20px;
     /* justify-content: space-between; */
     
     
 }
 .subcontainer2{
     height: 100%;
-    width: 30%;
+    width: 25%;
     /* border: 2px solid rgb(26, 11, 233); */
     background-color: black;
     padding-right: 12px;
 }
 /* .................................................supersubconatainer */
 .supersubcontainer1{
-    /* border: 1px solid rgb(11, 233, 41); */
+    /* border: 1px solid rgb(3, 14, 5); */
     height: 50%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
    
 }
 .supersubcontainer2{
